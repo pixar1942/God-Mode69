@@ -1,0 +1,1 @@
+<div class="navigator">						<ul>						<li>					<span><?php wp_nav_menu(array('theme_location' => 'header_top_menu','container' => 'div',  'menu_class' => 'dropdown', 'container_class' => 'pull-right top-menu-container',));?></span><!-- NAVIGATOR  -->										</li>					</ul>					</div>

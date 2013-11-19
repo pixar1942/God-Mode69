@@ -1,0 +1,1 @@
+apply the file then use the code in this site (http://cherne.net/brian/resources/jquery.hoverIntent.html)

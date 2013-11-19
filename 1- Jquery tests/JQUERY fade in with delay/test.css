@@ -1,0 +1,20 @@
+.firstIMG{
+background:url(images/face.png) no-repeat;
+width:266px;
+height:84px;
+display:none;
+}
+
+.secondIMG{
+background:url(images/sound.png) no-repeat;
+width:266px;
+height:84px;
+display:none;
+}
+
+.thirdIMG{
+background:url(images/you.png) no-repeat;
+width:266px;
+height:84px;
+display:none;
+}

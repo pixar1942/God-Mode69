@@ -1,0 +1,19 @@
+=====Gradient
+
+background:#3c89db;
+background: -webkit-linear-gradient(top, #3c89db, #2a61bf);
+background: -moz-linear-gradient(top, #3c89db ,#2a61bf);
+background: -ms-linear-gradient(top, #3c89db ,#2a61bf);
+background: -o-linear-gradient(top, #3c89db ,#2a61bf);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#3c89db", endColorstr="#2a61bf",GradientType=0);
+
+
+
+=====Border-radius
+
+border-radius:5px;
+-khtml-border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-ms-border-radius:5px;
+-o-border-radius:5px;

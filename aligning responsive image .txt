@@ -1,0 +1,12 @@
+in html5 tag 
+
+eg.
+
+<head><img src=""/></head>
+
+
+**css area**
+
+head{
+text-align:center;
+}

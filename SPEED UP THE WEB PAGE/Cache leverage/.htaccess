@@ -1,0 +1,24 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|site\.php|css|js|images|beta|fonts|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+
+ExpiresActive On
+ExpiresDefault A0
+
+# 1 YEAR
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+ExpiresDefault A29030400
+</FilesMatch>
+
+# 1 WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+ExpiresDefault A604800
+</FilesMatch>
+
+# 3 HOUR
+<FilesMatch "\.(txt|xml|js|css)$">
+ExpiresDefault A604800
+</FilesMatch>

@@ -1,0 +1,42 @@
+.white_content_main_content {
+	text-align:left;
+	display: none;
+	position: absolute;
+	top: 210px;  /*448%; */
+	width: 90%;
+	overflow: auto;
+	background:url(../images/shadow_black.png) repeat transparent;
+	padding:1.5625%;
+	border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+.white_content_in {
+	padding:40px 12px;
+	background:white;
+	border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+.white_content_in label{
+line-height:40px;
+}
+
+ #paypal-submit{
+ margin-top:10px;
+ }
+
+.close_button {
+	display:block;
+	padding:0.6510416666666667%;
+	text-align:right;
+}
+

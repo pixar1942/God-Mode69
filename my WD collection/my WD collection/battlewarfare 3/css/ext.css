@@ -1,0 +1,121 @@
+*
+{
+border:0px;
+padding:0px;
+margin:0px auto;
+}
+
+body{
+background:url(../images/background.jpg) #232d36 top center no-repeat;
+
+}
+
+nav, section, header, footer
+{
+display:block;
+}
+
+a{
+text-decoration:none;
+}
+
+.right{
+float:right;
+}
+
+.left{
+float:left;
+}
+
+.clear{
+clear:both;
+}
+
+li{
+list-style:none;
+}
+
+#wrapper{
+width:1000px;
+}
+
+/** ***********************HEADER************* **/
+
+.head{
+background:url(../images/header.jpg) no-repeat;
+width:779px;
+height:399px;
+}
+
+/** ***********************NAVIGATOR************* **/
+
+#navigate{
+background:url(../images/navigator.jpg) no-repeat;
+width:810px;
+height:92px;
+}
+
+.hov{
+background:url(../images/org.jpg) no-repeat;
+width:215px;
+height:110px;
+}
+
+.home{
+background:url(../images/hover.jpg) no-repeat;
+width:215px;
+height:110px;
+}
+
+.hov:hover{
+background:url(../images/hover.jpg) no-repeat;
+width:215px;
+height:110px;
+}
+
+span{
+font-size:18px;
+font-family:trajan pro;
+color:black;
+text-align:center;
+line-height:100px;
+margin-left:70px;
+}
+
+/** ***********************BODY************* **/
+
+#body{
+background:white;
+width:810px;
+}
+
+.book{
+border:3px grey solid;
+width:230px;
+height:347px;
+margin:30px;
+}
+
+#bodytext{
+padding-left:30px;
+padding-top:30px;
+font-size:18px;
+}
+
+h1{
+padding-left:30px;
+}
+
+/** ***********************FOOTER************ **/
+
+#foot{
+background:url(../images/footer.jpg) no-repeat;
+width:810px;
+height:84px;
+}
+
+#footnote{
+color:white;
+line-height:50px;
+text-align:center;
+}

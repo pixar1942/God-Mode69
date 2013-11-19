@@ -1,0 +1,1 @@
+	// Create a function for register_nav_menus()	function add_wp3menu_support() {	 	register_nav_menus(			array(			'main-menu' => __('Main Navigation'),			'another-menu' => __('Another Navigation')			)		 );	 	} //Add the above function to init hook.
